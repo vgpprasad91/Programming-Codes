@@ -45,8 +45,9 @@ class template {
 // template for getting a number within a testcase ( T-N || T-N-A)
 
 import java.util.Scanner;
-class template { 
+class template {
   public static void main(String args[]){
+   int[] H= {};
     Scanner input = new Scanner( System.in );
     System.out.println("Enter the number of test cases :");
     String T = input.nextLine();
@@ -60,7 +61,7 @@ class template {
           System.out.println("Enter the number of testcases between 1 to 100");
     } 
         for ( i=0; i<Integer.parseInt(N); i++){
-          String N = input.nextLine();
+          String H[i] = input.nextLine();
     } 
   } 
 } 
