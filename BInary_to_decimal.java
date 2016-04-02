@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 //create a class
 class Bintodec {
-  public static void main(String args[]){  
+  public static void main(String args[]){  //main function
     Scanner input = new Scanner( System.in );
     System.outprint("Enter the number of test cases :");
     String T = input.nextLine();
