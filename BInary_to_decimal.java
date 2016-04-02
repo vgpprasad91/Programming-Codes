@@ -3,9 +3,12 @@
 
 //Binary to decimal with Integer.parseInt()
 
+// import the necessary java files
 import java.util.Scanner;
+
+//create a class
 class Bintodec {
-  public static void main(String args[]){
+  public static void main(String args[]){  
     Scanner input = new Scanner( System.in );
     System.outprint("Enter the number of test cases :");
     String T = input.nextLine();
