@@ -3,8 +3,6 @@
 
 //Binary to decimal with Integer.parseInt()
 
-//Binary to decimal without Integer.parseInt()
-
 import java.util.Scanner;
 class Bintodec {
   public static void main(String args[]){
@@ -24,3 +22,5 @@ class Bintodec {
     }
   }
 }
+
+//Binary to decimal without Integer.parseInt()
